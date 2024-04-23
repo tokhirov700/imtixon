@@ -1,0 +1,94 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+footer{
+    background-color: #0B7572;
+    margin-top: 166px;
+}
+.footer-container{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 16px;
+    box-sizing: content-box;
+}
+.footer-wrapper{
+    display: flex;
+    padding-top: 59px;
+    padding-bottom: 80px;
+    max-width: 1240px;
+    justify-content: space-between;
+
+}
+.footer-item__wrapper{
+    max-width: 350px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.footer-logo{
+    width: 176px;
+    height: 90px;
+}
+.footer-wrapper__position{
+    display: flex;
+    max-width: 660px;
+    width: 100%;
+    justify-content: space-between;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 133px;
+}
+.item-text{
+    font-family: "Exo 2";
+font-size: 13px;
+font-weight: 500;
+line-height: 19.5px;
+letter-spacing: 0.16em;
+text-align: left;
+color: white;
+
+}
+.footer-logos{
+    display: flex;
+    gap: 14px;
+}
+.footer-btns{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.footer_boton{
+    font-family: "Exo 2";
+font-size: 12px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0.16em;
+text-align: center;
+color: white;
+padding-bottom: 29px;
+}
+.telnomer{
+    font-family: "Exo 2";
+font-size: 13px;
+font-weight: 600;
+line-height: 19.5px;
+text-align: left;
+color: white;
+}
+.footer-btn{
+    font-family: "Exo 2";
+    padding: 8px 11px;
+font-size: 13px;
+font-weight: 600;
+line-height: 19.5px;
+text-align: left;
+color: white;
+align-items: center;
+gap: 14px;
+display: flex;
+background-color: #FF9619;
+}

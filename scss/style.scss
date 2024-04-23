@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+@import "./blocks/hero";
+@import "./blocks/business-relationship";
+@import "./blocks/truct";
+@import "./blocks/work-activity";
+@import "./blocks/delivery-stages";
+@import "./blocks/theytrustus";
+@import "./blocks/company-employees";
+@import "./blocks/footer"

@@ -1,0 +1,258 @@
+.truct-wrapper {
+    clip-path: polygon(50% 0%, 84% 68%, 100% 100%, 0 100%, 0 0);
+    background-color: #0B7572;
+    max-width: 769px;
+    height: 453.5px;
+}
+
+.truct-background {
+    max-width: 1240px;
+    margin: 0 auto;
+    background-image: url("../../images/truct.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    // background-position: c;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+.truct-container {
+    max-width: 1240px;
+    margin: 0 auto;
+    // padding: 0 20px;
+    box-sizing: content-box;
+
+
+}
+
+.truct-wrapper>h1 {
+    padding-top: 178px;
+    margin-left: 90px;
+    max-width: 362px;
+    font-family: "Exo 2";
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 55px;
+    text-align: left;
+    color: white;
+
+}
+
+.truct-information {
+    display: flex;
+    max-width: 1034px;
+    justify-content: space-between;
+    gap: 62px 140px;
+    display: grid;
+    margin-left: 66px;
+    margin-top: 72.5px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.truct-info {
+    display: flex;
+    align-items: center;
+    max-width: 447px;
+    justify-content: space-between;
+}
+
+.info-wrapper {
+    max-width: 327px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-wrapper>p {
+    margin-bottom: 16px;
+    font-family: "Exo 2";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    color: #363738;
+}
+
+.info-wrapper>small {
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #6B6B6C;
+
+}
+
+@media only screen and (max-width: 1140px) {
+    .truct-wrapper {
+        clip-path: polygon(50% 0%, 84% 68%, 100% 100%, 0 100%, 0 0);
+        background-color: #0B7572;
+        max-width: 600px;
+        height: 383px;
+       
+    }
+
+    .truct-wrapper>h1 {
+        padding-top: 112px;
+        margin-left: 85px;
+        max-width: 288px;
+        font-family: "Exo 2";
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 55px;
+        text-align: left;
+        color: white;
+
+    }
+
+    .truct-information {
+        display: flex;
+        flex-direction: column;
+        max-width: 533px;
+        justify-content: space-between;
+        display: grid;
+        margin-left: 66px;
+        grid-template-columns: repeat(1, 1fr);
+        padding-bottom: 120px;
+        margin: 0 auto;
+        margin-top: 72.5px;
+    }
+
+    .info-wrapper {
+        max-width: 400px;
+    }
+
+    .truct-info {
+        display: flex;
+        align-items: center;
+        max-width: 533px;
+        gap: 49px;
+    }
+
+    .truct-container {
+        max-width: 1140px;
+        margin: 0 auto;
+        box-sizing: content-box;
+
+
+    }
+
+    .truct-background {
+        background-image: url("../../images/truct.png");
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: cover;
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1140px;
+    }
+
+    .info-wrapper>p {
+        font-family: "Exo 2";
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 27px;
+        text-align: left;
+
+
+    }
+
+    .info-wrapper>small {
+        font-family: PT Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+
+
+
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    .truct-background {
+        background-image: none;
+    }
+
+    .truct-wrapper>h1 {
+        padding-top: 0px;
+        margin-left: 0px;
+        max-width: 344px;
+font-size: 28px;
+font-weight: 600;
+line-height: 35px;
+text-align: left;
+
+        color: rgb(0, 0, 0);
+    
+    }
+    .truct-wrapper{
+    background-color: white;
+    clip-path: polygon(100% 0, 100% 57%, 100% 100%, 0 100%, 0 0);
+    height: 100%;
+    padding: 0 16px;
+}
+}
+@media only screen and (max-width: 552px) {
+    .truct-information {
+        display: flex;
+        flex-direction: column;
+        max-width: 552px;
+        justify-content: space-between;
+        display: grid;
+        margin-left: 0%;
+        grid-template-columns: repeat(1, 1fr);
+        padding-bottom: 120px;
+        margin-left: 0;
+        gap: 38px;
+        margin-top: 48px;
+    }
+    .truct-wrapper{
+        padding: 0px;
+    }
+    .info-wrapper {
+        max-width: 552px;
+    }
+
+    .truct-info {
+        display: flex;
+        align-items: center;
+        max-width: 552px;
+        gap: 0 16px;
+        justify-content: space-between;
+    }
+    .info-wrapper>p {
+        font-family: "Exo 2";
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24.3px;
+        text-align: left;
+        margin-bottom: 12px;
+
+    }
+
+    .truct-info>img {
+        width: 52px;
+        height: 52px;
+    }
+
+    .info-wrapper>small {
+        font-family: PT Sans;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22.5px;
+        text-align: left;
+
+
+    }
+
+    .truct {
+        padding: 0 15px;
+    }
+    .truct-background {
+        background-image: none;
+        padding: 0px;
+    }
+}
