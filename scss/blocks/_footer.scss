@@ -26,10 +26,7 @@ footer{
     width: 100%;
     justify-content: space-between;
 }
-.footer-logo{
-    width: 176px;
-    height: 90px;
-}
+
 .footer-wrapper__position{
     display: flex;
     max-width: 660px;
@@ -40,7 +37,9 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 25px;
-    max-width: 133px;
+}
+.footer-small{
+    display: none;
 }
 .item-text{
     font-family: "Exo 2";
@@ -91,4 +90,107 @@ align-items: center;
 gap: 14px;
 display: flex;
 background-color: #FF9619;
+}
+@media only screen and (max-width: 1140px){
+    .footer-container{
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 0 39px;
+        box-sizing: content-box;
+    }
+    .footer-wrapper{
+        display: flex;
+        padding-top: 59px;
+        padding-bottom: 80px;
+        max-width: 1140px;
+        justify-content: space-between;
+    
+    }
+    .telnomer{
+        font-size: 8px;
+        font-weight: 600;
+        line-height: 12px;
+        text-align: left;
+        
+    }
+    .footer-small{
+        display: block;
+    }
+    .footer-logo{
+        display: none;
+    }
+    .footer-wrapper__position{
+        display: flex;
+        max-width: 430px;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .footer-btn{
+font-size: 6px;
+font-weight: 600;
+line-height: 9px;
+text-align: left;
+    }
+    .item-text{
+        font-size: 8px;
+        font-weight: 500;
+        line-height: 12px;
+        letter-spacing: 0.16em;
+        text-align: left;
+    
+    
+    }
+    .footer_boton{
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 15px;
+        letter-spacing: 0.16em;
+        text-align: center;
+        
+    padding-bottom: 21px;
+    }
+    .footer-item{
+        display: flex;
+        flex-direction: column;
+        gap: 13px;
+    }
+    .footer-logo{
+        max-width: 92px;
+        height: 46px;
+    }
+    .footer-item__wrapper{
+        max-width: 266px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+@media only screen and (max-width: 657px){
+    .footer-wrapper__position{
+        display: flex;
+        flex-direction: column;
+        max-width: 430px;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .footer-wrapper{
+        display: flex;
+        padding-top: 59px;
+        padding-bottom: 80px;
+        max-width: 1140px;
+        flex-direction: column;
+        justify-content: space-between;
+    
+    }
+    .footer-small{
+        display: block;
+        margin-bottom: 23px;
+    }
+    .footer-btn{
+        font-size: 6px;
+        font-weight: 600;
+        line-height: 9px;
+        text-align: left;
+        max-width: 140px;
+            }
 }
